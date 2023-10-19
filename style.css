@@ -1,0 +1,42 @@
+
+.Nav{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.Nav > a {
+    font-size: 20px;
+}
+
+footer{
+    width: 100vw;
+    height: 200px;
+    background-color: gray;
+}
+
+.contact{
+    display: flex;
+    height: 200px;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+
+.contact > a{
+    margin-right: 30px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.contact > a > p{
+    margin: 10px 0 0 0;
+    font-size: 20px;
+}
+.contact > a > i{
+    font-size: 40px;
+}
+.contact > a:hover{
+    color: #000;
+}
